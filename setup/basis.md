@@ -83,24 +83,7 @@ Now, let's select a database!
 
 ### Making a database
 
-With better-mysql, you can make a database very simple. We are going to create a database called `example` . There are two ways, with await and with .then.
-
-{% code-tabs %}
-{% code-tabs-item title="Await example" %}
-```javascript
-let database = await client.createDatabase("example");
-// Use the variable "database" for using/creating a table.
-```
-{% endcode-tabs-item %}
-
-{% code-tabs-item title=".then example" %}
-```javascript
-client.createDatabase("example").then(database => {
-    // Use the variable "database" for using/creating a table.
-});
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+There are some issues with making a database. In the next version those issues are fixed. Sorry for this!
 
 ### Loading a database
 
@@ -123,9 +106,45 @@ client.loadDatabase("example").then(database => {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+## Renaming a database
 
+If you want to rename a database, you can do that too! Just use the `client.renameDatabase`function! Here is an example. The database called `exxample` will be renamed to `example`.
 
-> If you have the database, you can go to [using tables](using-tables.md).
+{% code-tabs %}
+{% code-tabs-item title="Await example" %}
+```javascript
+await client.renameDatabase("exxample", "example");
+// Done!
+```
+{% endcode-tabs-item %}
 
+{% code-tabs-item title=".then example" %}
+```javascript
+client.renameDatabase("exxample", "example").then(() => {
+    // Done!
+});
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
+## Deleting a database
+
+You can delete a database with the `client.deleteDatabase` function! Here is an example where the database `example` will be deleted.
+
+{% code-tabs %}
+{% code-tabs-item title="Await example" %}
+```javascript
+await client.deleteDatabase("example");
+// Done!
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title=".then example" %}
+```javascript
+client.deleteDatabase("example").then(() => {
+    // Done!
+});
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Better-mysql - Home](README.md)
+* [Better-MySQL- Home](README.md)
 
 ## Setup
 
