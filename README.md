@@ -16,9 +16,13 @@ Better-MySQL will get more futures later. Some things are:
 
 * Support for queues.
 * Backuping your databases or tables.
-* Support voor packages in the package.
+* Support for extensions in the package.
 * Convert to SQL only.
 * Running a MySQL server server with this package.
 * Using local SQLITE databases.
 * **And many more!**
+
+## Dark mode
+
+Because gitbook doesn't support a dark mode, you have to see everything bright. But, there is a extensions called `dark reader`. If you use that extensions, everything is perfect dark! View [the website](https://darkreader.org/) to know how you can install it \(for `google chrome`, `firefox`and `safari`\).
 
