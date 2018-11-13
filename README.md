@@ -24,5 +24,5 @@ Better-MySQL will get more futures later. Some things are:
 
 ## Dark mode
 
-Because gitbook doesn't support a dark mode, you have to see everything bright. But, there is a extensions called `dark reader`. If you use that extensions, everything is perfect dark! View [the website](https://darkreader.org/) to know how you can install it \(for `google chrome`, `firefox`and `safari`\).
+Because gitbook doesn't support a dark mode, you have to see everything bright. But, there is a extensions called `dark reader`. If you use that extensions, everything is perfect dark! Not only in gitbook, but for EVERY WEBSITE! View [the website](https://darkreader.org/) to know how you can install it \(for `google chrome`, `firefox`and `safari`\).
 
