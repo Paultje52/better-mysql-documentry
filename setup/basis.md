@@ -1,8 +1,8 @@
 ---
-description: The best place to start!
+description: 'The best place to start, of course.'
 ---
 
-# Basis
+# Base
 
 ## Installing better-mysql
 

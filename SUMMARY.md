@@ -4,6 +4,6 @@
 
 ## Setup
 
-* [Basis](setup/basis.md)
+* [Base](setup/basis.md)
 * [Using tables](setup/using-tables.md)
 
