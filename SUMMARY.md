@@ -1,11 +1,16 @@
 # Table of contents
 
 * [Better-MySQL- Home](README.md)
-* [Using a filter](using-a-filter.md)
+* [Chance logs](chance-logs.md)
 
-## Setup
+## Basic setup
 
-* [Base](setup/basis.md)
-* [Using tables](setup/using-tables.md)
-* [Getting data](setup/getting-data.md)
+* [Base](basics/basis.md)
+* [Using tables](basics/using-tables.md)
+* [Getting data](basics/getting-data.md)
+* [Setting data](basics/setting-data.md)
+
+## utilities
+
+* [Using a filter](util/using-a-filter.md)
 
