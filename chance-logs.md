@@ -4,6 +4,19 @@ description: What is chanced?
 
 # Chance logs
 
+## v1.1.0
+
+### Added
+
+* A queue for all the SQL commands
+* A event handler with one event: `sql` &gt; Get all the SQL code that will be send to the database.
+* Functions
+* Queue extender
+
+### Fixes
+
+* The client creator is now smoother!
+
 ## v1.0.1
 
 ### Fixes

@@ -8,13 +8,13 @@ _Better-mysql_ is a NodeJS package. With this package you can communicate with a
 
 ## How does it work?
 
-When using this package, you can use multiple functions with data in it. Then, the package convert your simple line of code to SQL, and then request that at the MySQL server!
+When using this package, you can use multiple functions with data in it. Then, the package convert your simple line of code to SQL, and then request that at the MySQL server!  
+Better-MySQL also got a queue system. With this queue system, every request will be placed in a queue and every X milliseconds the package will handle one request.
 
 ## Chances ahead
 
 Better-MySQL will get more futures later. Some things are:
 
-* Support for queues.
 * Backuping your databases or tables.
 * Support for extensions in the package.
 * Convert to SQL only.

@@ -43,6 +43,43 @@ The client is a class. That means that you can have more mysql connections at th
 **In line five** we give up the password. You can use `pass`and `password`and it chould be a string.  
 **And line six** is just a end of the start.
 
+### Queues
+
+By default, the queues are on. There isn't a option to fully disable queues, but you can set the interval time very low. You can set the queue to very low with the option `queue` in the client constructor.  
+If you want to chance the default interval, what is `500 ms`,  you can do that with the option `queueInterval`. Here are some examples.
+
+{% code-tabs %}
+{% code-tabs-item title="Setting the interval to 1000ms" %}
+```javascript
+const mysql = require("better-mysql");
+let client = new mysql.client({
+    // Loging in
+    host: "db4free.net",
+    user: "YOURUSERNAME",
+    pass: "YOURPASSWORD123",
+    
+    // Queue
+    queueInterval: 1000
+)};
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Turning the queue off " %}
+```javascript
+const mysql = require("better-mysql");
+let client = new mysql.client({
+    // Loging in
+    host: "db4free.net",
+    user: "YOURUSERNAME",
+    pass: "YOURPASSWORD123",
+    
+    // Queue
+    queue: false
+)};
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
 ## See the databases
 
 To make/connect to a table, we have to use a database. But it can come in handy if you want to see the databases before we connect to a database. That can be done by those two lines of code:

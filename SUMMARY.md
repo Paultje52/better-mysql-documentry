@@ -9,8 +9,11 @@
 * [Using tables](basics/using-tables.md)
 * [Getting data](basics/getting-data.md)
 * [Setting data](basics/setting-data.md)
+* [Using events](basics/using-events.md)
 
 ## utilities
 
 * [Using a filter](util/using-a-filter.md)
+* [Functions](util/functions.md)
+* [Queue](util/queue.md)
 
