@@ -10,7 +10,6 @@ description: What is chanced?
 
 * The `table.ensure` function to ensure data.
 * One example in the docs.
-* Some bug fixes
 
 ## v1.1.0
 
