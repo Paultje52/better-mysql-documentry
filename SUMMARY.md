@@ -3,13 +3,17 @@
 * [Better-MySQL- Home](README.md)
 * [Chance logs](chance-logs.md)
 
-## Basic setup
+## Setup
 
-* [Base](basics/basis.md)
-* [Using tables](basics/using-tables.md)
-* [Getting data](basics/getting-data.md)
-* [Setting data](basics/setting-data.md)
-* [Using events](basics/using-events.md)
+* [Base](setup/basis.md)
+* [Using tables](setup/using-tables.md)
+* [Getting data](setup/getting-data.md)
+* [Setting data](setup/setting-data.md)
+* [Using events](setup/using-events.md)
+
+## Examples
+
+* [Per server settings](examples/per-server-settings.md)
 
 ## utilities
 

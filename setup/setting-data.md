@@ -76,6 +76,31 @@ table.where(filter).then(customer => {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+## Ensure
+
+If you want to add a row if something in it doesn't exists, you can do that with the `table.ensure` function. Here is a example.
+
+{% code-tabs %}
+{% code-tabs-item title="Await example" %}
+```javascript
+let filter = new client.filter();
+filter.add("name", "Jan");
+let res = await table.ensure(filter, ["Paul", "paul@example.com", "password"]);
+// Use the variable "res" with the data.
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title=".then example" %}
+```javascript
+let filter = new client.filter();
+filter.add("name", "Jan");
+table.ensure(filter, ["Paul", "paul@example.com", "password"]).then(res => {
+    // Use the variable "res" with the data.
+});
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
 ## Deleting
 
 Oke, finaly: deleting data! You can delete data with the `table.delete` function and a filter. Here a example.

@@ -4,6 +4,14 @@ description: What is chanced?
 
 # Chance logs
 
+## v1.1.1
+
+### Added
+
+* The `table.ensure` function to ensure data.
+* One example in the docs.
+* Some bug fixes
+
 ## v1.1.0
 
 ### Added
