@@ -4,6 +4,12 @@ description: What is chanced?
 
 # Chance logs
 
+## v1.2.1
+
+### Fixed
+
+* There were some issues with loading client extenders, this is now fixed!
+
 ## v1.2.0
 
 ### Added
