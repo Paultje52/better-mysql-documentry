@@ -10,6 +10,10 @@ description: What is chanced?
 
 * Client extenders! Now you can use easy extenders, so you can use better-MySQL easier that ever!
 
+### Fixed
+
+* Better-MySQL will now take up to 2.000% less memory than before! \(From `2MB` to `50KB`\)
+
 ## v1.1.1
 
 ### Added
