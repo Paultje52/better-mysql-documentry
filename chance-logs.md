@@ -4,6 +4,12 @@ description: What is chanced?
 
 # Chance logs
 
+## v1.2.0
+
+### Added
+
+* Client extenders! Now you can use easy extenders, so you can use better-MySQL easier that ever!
+
 ## v1.1.1
 
 ### Added

@@ -10,10 +10,15 @@
 * [Getting data](setup/getting-data.md)
 * [Setting data](setup/setting-data.md)
 * [Using events](setup/using-events.md)
+* [Using client extenders](setup/using-client-extenders.md)
 
 ## Examples
 
 * [Per server settings](examples/per-server-settings.md)
+
+## Client extenders
+
+* [Getset](client-extenders/getset.md)
 
 ## utilities
 
