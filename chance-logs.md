@@ -4,6 +4,12 @@ description: What is chanced?
 
 # Chance logs
 
+## v1.2.2
+
+### Fixed
+
+* You can now put data in columns up to ONE MILLION characters \(in stead of the 255 what it was before\)!
+
 ## v1.2.1
 
 ### Fixed
