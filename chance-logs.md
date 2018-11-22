@@ -4,6 +4,12 @@ description: What is chanced?
 
 # Chance logs
 
+## v1.2.3
+
+### Fixed
+
+* **HOT FIX:** I left the test script in the index, i'm stupid \(there are no personal information things, you can check if you want\).
+
 ## v1.2.2
 
 ### Fixed
