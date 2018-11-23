@@ -4,6 +4,12 @@ description: What is chanced?
 
 # Chance logs
 
+## v1.2.4
+
+### Fixed
+
+* With the getset module, every object will now get converterend properly.
+
 ## v1.2.3
 
 ### Fixed
